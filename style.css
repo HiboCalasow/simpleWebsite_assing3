@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: aliceblue;
+
+}
+/* home section starts here */
+.container{
+    background-color: rgb(224, 237, 237);
+    font-size: 20px;
+    z-index: 20;
+    position: fixed;
+    width: 100%;
+}
+ .container #logo{
+    margin: 20px;
+ }
+ .icon{
+    margin-left: 20px;
+ }
+  .icon{
+    padding-right:10px;
+    font-size: 25px;
+  
+ }
+.container ul{
+    display: inline-flex;
+    margin: 20px;
+    float: right;
+    list-style: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.container ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+.container ul li {
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.container ul li select  {
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+#btn{
+   width: 150px;
+   padding: 5px;
+   background: rgb(34, 167, 229);
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 20px;
+}
+#login{
+    color: blue;
+}
+.image img{
+    width: 50%;
+    margin-left: 50%;
+   margin-top: 90px;
+}
+nav{
+    margin-top: -400px;
+    margin-left: 20px;
+    padding: 20px;
+   
+}
+nav button{
+    background:  rgb(34, 167, 229);
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+nav h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+nav p{
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+nav input{
+    width: 40%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+}
+nav #btn-input{
+    border: none;
+    border-radius: 5px;
+    margin-left: -90px;
+    padding: 12px;
+    cursor: pointer;
+   
+
+}
+/* home section ends here */
+
+
+/* center section starts here */
+
+.Features{
+    margin-top: 100px;
+    line-height: 30px;
+
+}
+.Features h1{
+    text-align: center;
+    font-size: 50px;
+}
+.Features #Features-p{
+    text-align: center;
+}
+.Features-box{
+    margin-top: 100px;
+    margin-left: 30px;
+    display: inline-block;
+  
+   
+}
+.Features-box img{
+    transition: 0.5s all ease-in-out;
+    width: 230px;
+}
+.Features-box img:hover{
+    transform: scale(1.2) ;
+    
+    cursor: pointer;
+}
+/* center section ends here */
+
+/* end section starts here */
+.buy{
+    margin-top: 200px;
+   
+}
+.buy h1{
+    text-align: center;
+    font-size: 50px;
+}
+.buy p{
+    text-align: center;
+  
+}
+.buy-box{
+    
+    display: inline-block;
+    border: 1px dashed   grey;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px;
+    line-height: 30px;
+    margin-left: 50px;
+    margin-top: 100px;
+  
+    
+}
+
+/* end section ends here */
